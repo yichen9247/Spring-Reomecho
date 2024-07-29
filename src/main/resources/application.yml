@@ -1,0 +1,14 @@
+server:
+  port: 5100
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: Spring Reomecho
+  web:
+    resources:
+      static-locations: classpath:/static/, classpath:/docs/
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main

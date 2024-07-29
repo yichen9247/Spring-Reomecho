@@ -1,0 +1,233 @@
+
+index:
+  hitokoto: true
+  post_eachNum: 5
+  index_hitokoto:
+    - "欲买桂花同载酒，荒泷天下第一斗。"
+    - "巧笑倩兮，美目盼兮，素以为绚兮。"
+    - "今人不见古时月，今月曾经照古人。"
+
+global:
+  site_title: "Reomecho Next"
+  site_icons: "/assets/favicon.jpg"
+  site_rssPath: "rss.xml"
+  site_address: "https://reomecho-next.xiaokolomi.cn"
+  site_hreflinks: "/"
+  site_loadingIcon: "/assets/avatar.jpg"
+  site_description: "让写作回归写作，基于Vite + SpringBoot的高性能博客框架。"
+
+system:
+  admin:
+    open: true
+    path: "console"
+  server_adress: "http://127.0.0.1:5100"
+
+sundry:
+  baktop_bton: true
+  click_effect: true
+  moused_waves: true
+  site_openrss: true
+  load_topline: true
+  music_cookie: true
+  is_cssinsert: true
+  is_javainsert: true
+  search_widget: true
+  dynamic_color: true
+  site_mourning: false
+  site_secproduc: true
+  image_lazyload: true
+  backtop_button: true
+  dialog_draggle: true
+  friends_draggle: true
+  load_fullscreen: true
+
+aside:
+  aside_list:
+    - "sponsor"
+    - "socials"
+    - "reckon"
+    - "lastpost"
+    - "sakanas"
+    - "statistics"
+    - "lovetime"
+    - "advertisement"
+    - "gitbuttons"
+  sponsor_image: "/assets/weixinpay.png"
+  gitbuttons_hrefs: "https://github.com/yichen9247/ReomEcho"
+
+circle:
+  eachItem: 10
+  serverAdress: "http://127.0.0.1:5100"
+
+cookie:
+  cookie_notice: true
+  confirmButtonText: "允许存储"
+  cookie_mb_message: "为记录访客的关键行为，我们使用Cookie技术来存储你的一些个人信息。"
+  cookie_pc_message: "为记录访客的关键行为，我们使用Cookie技术来存储你的一些信息，详情请查看<a href='/privacy/'>《隐私政策》</a>"
+
+deploy:
+  method: 'Vercel'
+  speedInsights: true
+
+author:
+  author_name: "Reomecho author"
+  author_link: "https://xiaokolomi.cn/"
+  author_desc: "也幻想过自己是鼓手，是赛车手，是小提琴手，但最后发现还是最想牵你的手，所以我松开拳头用手握紧笔，作为自己作为人类也作为你，就像是一场华尔街的阴谋，透露着优雅的杀戮。"
+  author_mail: "test@163.com"
+  author_avatar: "/assets/avatar.jpg"
+  author_github: "yichen9247"
+  author_background: "/assets/background.jpg"
+
+lovevs:
+  star_date: "Date.UTC(2019, 12, 28, 6, 45, 0)"
+  left_avatar: "https://q2.qlogo.cn/g?b=qq&nk=865252486&s=640"
+  righ_avatar: "https://q2.qlogo.cn/g?b=qq&nk=1486823198&s=640"
+
+header:
+  music_widget: true
+  users_widget: true
+  rando_widget: true
+  theme_widget: true
+  resize_widget: true
+  search_widget: true
+  header_widget: true
+  header_setting: true
+  header_navlist:
+    - name: "首页"
+      link: "/"
+      target:  "_self"
+      iconFill: "rgb(138, 43, 226)"
+      featherIcon: "home"
+    - name: "链接"
+      link: "/friends"
+      target: "_self"
+      iconFill: "#FF99CC"
+      featherIcon: "linkedin"
+    - name: "隐私"
+      link: "/privacy"
+      target: "_self"
+      iconFill: "#9999CC"
+      featherIcon: "file-minus"
+    - name: "项目"
+      link: "/project"
+      target: "_self"
+      iconFill: "#FF9999"
+      featherIcon: "instagram"
+    - name: "留言"
+      link: "/feedback"
+      target: "_self"
+      iconFill: "#FF9966"
+      featherIcon: "edit"
+    - name: "关于"
+      link: "/aboutme"
+      target: "_self"
+      iconFill: "#66CCCC"
+      featherIcon: "at-sign"
+    - name: "朋友圈"
+      link: "/circle"
+      target: "_self"
+      iconFill: "#00CC99"
+      featherIcon: "aperture"
+
+footer:
+  footer_link: "https://github.com/yichen9247/Reomecho-Next"
+  footer_copyright: "Copyright © 2023 - 2024 <a href='https://github.com/yichen9247/Reomecho-Next'>Reomecho Next</a>"
+
+drawer:
+  drawer_show: true
+  drawer_image: "/assets/background.jpg"
+  drawer_footer: true
+  drawer_social: true
+  drawer_search: true
+  drawer_musicst: false
+  drawer_statistics: true
+
+statis:
+  statics_pv: true
+  statics_uv: true
+  statics_links: true
+  statics_posts: true
+
+article:
+  post_copynoti: true
+  post_printbtn: true
+  post_sharebtn: true
+  post_copyright: true
+  post_staticspa: true
+  post_graphsbtn: true
+  code_highlight: true
+  post_watermark: false
+  watermark_text: "Reomecho Next"
+  copy_noticeText: '复制成功，转载请保留原文链接'
+
+comment:
+  comment_styl: 6
+  comment_psiz: 10
+  comment_maxs: 500
+  comment_glba: true
+  valine_emoje: true
+  waline_login: true
+  comment_lang: "zh-cn"
+  comment_type: "Twikoo"
+  artalk_server: "test"
+  waline_reaction: true
+  twikoo_envid: "https://"
+  valine_appid: ""
+  valine_appkey: ""
+  waline_server: "https://"
+  comment_placehoter: "请输入评论内容，请勿发布无意义的内容..."
+
+function:
+  musics:
+    - name: "音乐名称"
+      img: "/assets/background.jpg"
+      src: "音乐链接.mp3"
+      lyric: "音乐链接.lrc"
+  friends:
+    - name: "Hua's home"
+      desc: "从微观到宏观，用技术改变世界"
+      image: "/assets/avatar.jpg"
+      href: "https://xiaokolomi.cn/"
+      target: "_blank"
+  advertisement:
+    - title: "软天空社区电脑版"
+      height: "100px"
+      target: "_blank"
+      href: "http://rtk.tiank.top"
+      image: "/advertisement/5554BD7CB8B706E9252FEB06016A6F80.jpg"
+
+social:
+  tcqq:
+    show: true
+    link: "#"
+  tcwx:
+    show: true
+    link: "#"
+  huab:
+    show: true
+    link: "#"
+  ding:
+    show: true
+    link: "#"
+  qqmu:
+    show: true
+    link: "#"
+  bili:
+    show: true
+    link: "#"
+
+styles:
+  darkTheme: 1
+  msgs_style: 2
+  font_style: 2
+  imgsandbox: 2
+  transition: "0.3s"
+  domin_color: "#626aef"
+  qrcode_color: "#626aef"
+  dotted_color2: "#1989fa"
+  dotted_color1: "#ff6c6c"
+  lazyloadErr: "/assets/404.gif"
+  lazyloadImg: "/assets/lazyload.jpg"
+  notfoundImg: "/assets/background.jpg"
+  background: "/assets/background.webp"
+  butto_color: "rgba(97, 104, 240, 0.75)"

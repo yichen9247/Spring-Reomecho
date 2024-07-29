@@ -1,0 +1,14 @@
+
+{
+  "server_adress": "http://127.0.0.1:5100",
+  "pages": {
+    "circle": { "open": true, "path": "/circle", "config": { "open": true, "path": "circle", "name": "友链朋友圈", "file": false, "comment": false, "head": true } },
+    "project": { "open": true, "path": "/project", "config": { "open": true, "path": "project", "name": "我的项目", "file": false, "comment": false, "head": true } },
+    "privacy": { "open": true, "path": "/privacy", "config": { "open": true, "path": "privacy", "name": "隐私政策", "file": true, "comment": false, "head": true } },
+    "friends": { "open": true, "path": "/friends", "config": { "open": true, "path": "friends", "name": "友情链接", "file": false, "comment": true, "head": true } },
+    "feedback": { "open": true, "path": "/feedback", "config": { "open": true, "path": "feedback", "name": "给我留言", "file": false, "comment": true, "head": true } }
+  },
+  "actives": [
+    { "path": "hello", "config": { "type": "post", "path": "hello", "name": "Hello World", "desc": "当你看到这篇文章的时候，你的博客已经部署成功了，这是默认提供的一篇示例文章，你可以编辑或删除它。", "image": "/assets/background.jpg", "tags": ["Hello World"], "class": ["Hello World"], "comment": true, "lock": false, "password": "123456", "expires": 30  }, "isFixed": true, "recom": true }
+  ]
+}
